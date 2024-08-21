@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: InterBold;
+    src: url(../assets/fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: InterRegular;
+    src: url(../assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: InterSemiBold;
+    src: url(../assets/fonts/static/Inter-SemiBold.ttf);
+}
+
+body {
+    background-color: #141414;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-profile-card {
+    padding: 40px;
+    background-color: #1F1F1F;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.social-profile-card__author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-profile-card__author-image {
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+}
+
+.social-profile-card__author-name {
+    font-family: InterBold;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-profile-card__author-address {
+    font-family: InterBold;
+    font-size: 10px;
+    color: #C4F82A;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-profile-card__author-description {
+    font-family: InterSemiBold;
+    font-size: 10px;
+    color: #C7C7C7;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-profile-card__links {
+    margin-top: 15px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-profile-card__link {
+    background-color: #333333;
+    width: 240px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.social-profile-card__link:hover {
+    cursor: pointer;
+    background-color: #C4F82A;
+}
+
+.social-profile-card__link:hover a {
+    color: #141414;
+}
+
+.social-profile-card__link a {
+    color: white;
+    font-family: InterBold;
+    font-size: 10px;
+    text-decoration: none;
+}
